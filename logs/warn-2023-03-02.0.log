@@ -1,0 +1,158 @@
+2023-03-02 10:51:26.882 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 10:51:27.065 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 10:51:38.235 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 10:51:38.241 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:03:26.407 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:03:26.409 [Thread-61] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:03:26.410 [Thread-61] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:03:26.411 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:03:46.885 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:03:47.073 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:03:58.417 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:03:58.425 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:08:48.177 [Thread-59] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:08:48.177 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:08:48.179 [Thread-59] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:08:48.183 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:09:04.064 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:09:04.235 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:09:14.225 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:09:14.231 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:10:15.611 [Thread-57] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:10:15.612 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:10:15.613 [Thread-57] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:10:15.617 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:10:31.182 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:10:31.337 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:10:41.046 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:10:41.051 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:22:45.356 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:22:45.357 [Thread-56] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:22:45.360 [Thread-56] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:22:45.367 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:23:00.868 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:23:01.027 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:23:10.895 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:23:10.901 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:23:53.888 [Thread-56] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:23:53.890 [Thread-56] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:23:53.887 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:23:53.892 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:24:08.713 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:24:08.865 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:24:18.858 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:24:18.863 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:26:50.729 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:26:50.729 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:26:50.734 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:26:50.736 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:27:07.531 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:27:07.719 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:27:18.846 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:27:18.851 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:31:03.707 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:31:03.709 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:31:03.709 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:31:03.711 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 11:31:21.136 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 11:31:21.348 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 11:31:32.612 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:31:32.617 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 11:43:13.572 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 11:43:13.576 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 11:43:13.578 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 11:43:13.579 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 13:49:30.405 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 13:49:30.634 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 13:49:41.823 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 13:49:41.829 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 13:50:43.124 [Thread-32] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 13:50:43.126 [Thread-32] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 13:50:43.126 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 13:50:43.128 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 13:51:04.766 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 13:51:04.947 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 13:51:14.688 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 13:51:14.693 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 13:56:26.676 [XNIO-1 task-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries<EOL> at [Source: (PushbackInputStream); line: 5, column: 6] (through reference chain: com.demo.common.pojo.dto.UserDto["address"])]
+2023-03-02 14:15:14.940 [Thread-34] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:15:14.941 [Thread-34] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:15:14.944 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:15:14.946 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:15:32.911 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:15:33.063 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:15:42.789 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:15:42.798 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:15:47.148 [XNIO-1 task-1] WARN  s.d.swagger2.web.Swagger2ControllerWebMvc - Unable to find specification for group default
+2023-03-02 14:16:30.239 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:16:30.241 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:16:30.247 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:16:30.251 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:16:49.489 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:16:49.706 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:16:59.632 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:16:59.637 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:34:14.903 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:34:14.903 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:34:14.905 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:34:14.909 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:34:33.957 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:34:34.115 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:34:43.828 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:34:43.833 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:40:10.495 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:40:10.495 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:40:10.498 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:40:10.502 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:40:28.678 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:40:28.834 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:40:38.592 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:40:38.597 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:45:54.377 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:45:54.379 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:45:54.379 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:45:54.383 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:46:13.049 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:46:13.207 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:46:22.986 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:46:22.991 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:51:27.302 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:51:27.304 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:51:27.306 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:51:27.307 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:51:45.635 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:51:45.796 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:51:55.641 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:51:55.646 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:53:49.625 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:53:49.626 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:53:49.629 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:53:49.630 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:54:07.272 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:54:07.430 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:54:17.200 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:54:17.206 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:55:42.791 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 14:55:42.792 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 14:55:42.795 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 14:55:42.798 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 14:56:00.774 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 14:56:00.937 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 14:56:10.731 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 14:56:10.736 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 15:15:58.373 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 15:15:58.374 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 15:15:58.375 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 15:15:58.381 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 15:16:31.685 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 15:16:31.869 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 15:16:41.929 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 15:16:41.935 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 15:26:12.355 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-02 15:26:12.350 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-03-02 15:26:12.361 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-03-02 15:26:12.363 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-03-02 15:26:33.479 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-02 15:26:33.656 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-02 15:26:44.654 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-02 15:26:44.659 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

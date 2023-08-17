@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    # 应用名，必填，用于注册nacos
+    name: gateway-service
+  cloud:
+    nacos:
+      config:
+        # 启用nacos配置管理
+        enabled: true
+        # 配置中心地址
+        server-addr: 124.70.130.56:8848
+        # 所属命名空间id，用于区分开发、测试、生产
+        namespace: dev
+        # 配置文件类型
+        file-extension: yaml
+      discovery:
+        # 注册中心地址
+        server-addr: 124.70.130.56:8848
+  config:
+    # 因为springboot 2.4版本以后默认关闭加载bootstrap.yml，所以只能通过此方式连接到nacos config
+    import:
+      - nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+      - nacos:common-dev.yaml
+
+
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 8110
+
+knife4j:
+  # 开启增强
+  enable: true
+  # 开启登录认证
+  basic:
+    enable: true
+    username: admin
+    password: 123456

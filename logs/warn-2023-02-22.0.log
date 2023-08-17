@@ -1,0 +1,130 @@
+2023-02-22 09:46:48.258 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 09:46:49.142 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 09:46:49.910 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 09:46:49.915 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 09:47:05.602 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 09:47:06.263 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-02-22 09:49:28.960 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 09:49:28.960 [Thread-50] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 09:49:28.964 [Thread-50] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 09:49:28.965 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 09:49:46.636 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 09:49:47.626 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 09:49:48.501 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 09:49:48.506 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 09:49:58.570 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 09:51:55.310 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 09:51:55.311 [Thread-40] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 09:51:55.314 [Thread-40] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 09:51:55.316 [Thread-5] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 09:52:11.749 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 09:52:12.722 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 09:52:13.625 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 09:52:13.632 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 09:52:23.366 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 10:03:29.490 [XNIO-1 task-1] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-02-22 10:04:47.043 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 10:04:47.046 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 10:04:47.046 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 10:04:47.046 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 10:04:59.748 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 10:05:00.592 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 10:05:01.247 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:05:01.251 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:05:09.072 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 10:05:09.262 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-02-22 10:07:49.039 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 10:07:49.039 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 10:07:49.042 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 10:07:49.042 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 10:08:02.857 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 10:08:03.713 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 10:08:04.373 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:08:04.377 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:08:12.429 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 10:09:36.214 [Thread-38] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 10:09:36.219 [Thread-38] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 10:09:36.217 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 10:09:36.221 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 10:09:48.929 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 10:09:49.779 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 10:09:50.472 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:09:50.477 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:09:58.412 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 10:10:35.102 [XNIO-1 task-1] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-02-22 10:14:31.630 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 10:14:31.630 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 10:14:31.631 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 10:14:31.631 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 10:14:45.150 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 10:14:46.042 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 10:14:46.804 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:14:46.809 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:14:55.008 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 10:15:14.551 [XNIO-1 task-1] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-02-22 10:16:04.076 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 10:16:04.076 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 10:16:04.078 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 10:16:04.078 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 10:16:16.727 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 10:16:17.567 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 10:16:18.228 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:16:18.232 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 10:16:26.111 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 10:16:55.883 [XNIO-1 task-1] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-02-22 10:47:14.245 [Thread-34] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 10:47:14.247 [Thread-34] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 10:47:14.247 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 10:47:14.249 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 11:22:32.754 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 11:22:33.938 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 11:22:34.851 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 11:22:34.856 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 11:22:44.873 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 11:23:14.475 [XNIO-1 task-1] WARN  o.s.c.l.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2023-02-22 16:25:46.147 [Thread-45] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 16:25:46.148 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 16:25:46.150 [Thread-45] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 16:25:46.153 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 16:26:05.630 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 16:26:06.623 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 16:26:07.386 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:26:07.391 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:26:15.999 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 16:27:32.335 [Thread-38] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 16:27:32.335 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 16:27:32.337 [Thread-38] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 16:27:32.341 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 16:27:49.522 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 16:27:50.596 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 16:27:51.524 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:27:51.529 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:28:00.194 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 16:31:59.097 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 16:31:59.097 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 16:31:59.100 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 16:31:59.100 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 16:32:15.117 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 16:32:16.045 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 16:32:16.845 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:32:16.849 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:32:25.196 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 16:34:49.214 [Thread-38] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 16:34:49.217 [Thread-38] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 16:34:49.214 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 16:34:49.219 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 16:35:05.174 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 16:35:06.124 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 16:35:06.925 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:35:06.930 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:35:15.336 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-22 16:35:16.777 [XNIO-1 task-1] WARN  s.d.swagger2.web.Swagger2ControllerWebMvc - Unable to find specification for group default
+2023-02-22 16:36:23.721 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-22 16:36:23.719 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-02-22 16:36:23.723 [Thread-37] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-02-22 16:36:23.724 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-02-22 16:36:39.714 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.demo.api]' package. Please check your configuration.
+2023-02-22 16:36:40.623 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-02-22 16:36:41.345 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:36:41.351 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-02-22 16:36:49.844 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.

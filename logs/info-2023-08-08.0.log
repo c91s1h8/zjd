@@ -1,0 +1,69 @@
+2023-08-08 16:47:37.645 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 5012 (D:\陈松鹤\demo\api\target\classes started by Uniigym3 in D:\陈松鹤\demo)
+2023-08-08 16:47:37.653 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-08-08 16:47:39.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-08 16:47:39.344 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-08 16:47:39.372 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-08-08 16:47:39.713 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c853dbe6-5a18-3678-b35a-2b810ddcad77
+2023-08-08 16:47:39.849 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.893 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.904 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.905 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.906 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$448/784934449] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.907 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.913 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.916 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:39.917 [main] INFO  i.s.s.boot.autoconfigure.SeataAutoConfiguration - Automatically configure Seata
+2023-08-08 16:47:39.926 [main] INFO  io.seata.config.FileConfiguration - The file name of the operation is registry
+2023-08-08 16:47:39.985 [main] INFO  io.seata.config.ConfigurationFactory - load Configuration:FileConfiguration$$EnhancerByCGLIB$$862af1eb
+2023-08-08 16:47:39.990 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configProperties' of type [io.seata.spring.boot.autoconfigure.properties.config.ConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configNacosProperties' of type [io.seata.spring.boot.autoconfigure.properties.config.ConfigNacosProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.303 [main] INFO  i.seata.spring.annotation.GlobalTransactionScanner - Initializing Global Transaction Clients ... 
+2023-08-08 16:47:40.392 [main] INFO  io.seata.core.rpc.netty.NettyClientBootstrap - NettyClientBootstrap has started
+2023-08-08 16:47:40.392 [main] INFO  i.seata.spring.annotation.GlobalTransactionScanner - Transaction Manager Client is initialized. applicationId[api-service] txServiceGroup[api-service-tx-group]
+2023-08-08 16:47:40.404 [main] INFO  io.seata.rm.datasource.AsyncWorker - Async Commit Buffer Limit: 10000
+2023-08-08 16:47:40.405 [main] INFO  io.seata.rm.datasource.xa.ResourceManagerXA - ResourceManagerXA init ...
+2023-08-08 16:47:40.414 [main] INFO  io.seata.core.rpc.netty.NettyClientBootstrap - NettyClientBootstrap has started
+2023-08-08 16:47:40.414 [main] INFO  i.seata.spring.annotation.GlobalTransactionScanner - Resource Manager is initialized. applicationId[api-service] txServiceGroup[api-service-tx-group]
+2023-08-08 16:47:40.414 [main] INFO  i.seata.spring.annotation.GlobalTransactionScanner - Global Transaction Clients are initialized. 
+2023-08-08 16:47:40.417 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.676 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.678 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.816 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence' of type [org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.821 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator' of type [org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.850 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:40.967 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-08 16:47:41.253 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-08-08 16:47:41.253 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3539 ms
+2023-08-08 16:47:41.706 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-08-08 16:47:41.949 [main] INFO  i.s.s.a.datasource.SeataAutoDataSourceProxyCreator - Auto proxy of [dataSource]
+2023-08-08 16:47:41.980 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-08 16:47:42.136 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-08 16:47:46.298 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2023-08-08 16:47:49.003 [redisson-netty-2-13] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for 192.168.5.17/192.168.5.17:6389
+2023-08-08 16:47:49.035 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for 192.168.5.17/192.168.5.17:6389
+2023-08-08 16:47:49.161 [main] INFO  i.seata.spring.annotation.GlobalTransactionScanner - Bean[com.demo.api.controller.ApiOneController] with name [apiOneController] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+2023-08-08 16:47:49.416 [main] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-08-08 16:47:51.724 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-08-08 16:47:52.046 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-08 16:47:52.147 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-08-08 16:47:52.153 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-08-08 16:47:55.119 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-08-08 16:47:55.569 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-08-08 16:47:55.579 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-08-08 16:47:55.592 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-08-08 16:47:55.634 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-08-08 16:47:55.689 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-08-08 16:47:55.700 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-08-08 16:47:58.818 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-08-08 16:47:59.259 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 29.656 seconds (JVM running for 31.912)
+2023-08-08 16:47:59.277 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-08-08 16:47:59.279 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-08-08 16:48:01.112 [RMI TCP Connection(4)-169.254.165.11] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-08 16:48:01.112 [RMI TCP Connection(4)-169.254.165.11] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-08 16:48:01.116 [RMI TCP Connection(4)-169.254.165.11] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-08-08 17:26:44.842 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-08-08 17:26:44.864 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-08 17:26:44.878 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-08-08 17:26:45.224 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-08-08 17:26:45.271 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-08 17:26:45.279 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

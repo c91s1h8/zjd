@@ -1,0 +1,41 @@
+2023-03-01 09:59:41.448 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 19256 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-03-01 09:59:41.456 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-03-01 09:59:42.969 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-01 09:59:42.972 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-01 09:59:42.997 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-03-01 09:59:43.342 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=94ea052b-68ac-3728-993a-8d00d1f16d64
+2023-03-01 09:59:43.708 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.711 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$484/640929948] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.713 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.852 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence' of type [org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator' of type [org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.887 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:43.993 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-01 09:59:44.301 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-03-01 09:59:44.301 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2785 ms
+2023-03-01 09:59:44.776 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-03-01 09:59:49.308 [main] INFO  org.redisson.Version - Redisson 3.16.8
+2023-03-01 09:59:52.309 [redisson-netty-2-22] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for 192.168.5.17/192.168.5.17:6389
+2023-03-01 09:59:52.334 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for 192.168.5.17/192.168.5.17:6389
+2023-03-01 09:59:52.656 [main] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-03-01 09:59:55.140 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-01 09:59:55.465 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-01 09:59:55.571 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-01 09:59:55.577 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-01 09:59:58.533 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-01 09:59:58.864 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-03-01 09:59:58.873 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-03-01 09:59:58.883 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-03-01 09:59:58.922 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-03-01 09:59:58.978 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-03-01 09:59:58.994 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-03-01 10:00:01.514 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-03-01 10:00:01.744 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 31.083 seconds (JVM running for 33.278)
+2023-03-01 10:00:01.749 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-03-01 10:00:01.752 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-03-01 10:00:03.266 [RMI TCP Connection(2)-169.254.165.11] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-01 10:00:03.266 [RMI TCP Connection(2)-169.254.165.11] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-01 10:00:03.270 [RMI TCP Connection(2)-169.254.165.11] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-03-01 10:00:03.277 [RMI TCP Connection(3)-169.254.165.11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-01 10:00:03.421 [RMI TCP Connection(3)-169.254.165.11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

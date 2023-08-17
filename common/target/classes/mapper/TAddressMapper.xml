@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.common.mapper.TAddressMapper">
+  <resultMap id="BaseResultMap" type="com.demo.common.pojo.domain.TAddress">
+    <!--@mbg.generated-->
+    <!--@Table t_address-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, user_id, address
+  </sql>
+  <update id="updateBatch" parameterType="java.util.List">
+    <!--@mbg.generated-->
+    update t_address
+    <trim prefix="set" suffixOverrides=",">
+      <trim prefix="user_id = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id,jdbcType=INTEGER} then #{item.userId,jdbcType=INTEGER}
+        </foreach>
+      </trim>
+      <trim prefix="address = case" suffix="end,">
+        <foreach collection="list" index="index" item="item">
+          when id = #{item.id,jdbcType=INTEGER} then #{item.address,jdbcType=VARCHAR}
+        </foreach>
+      </trim>
+    </trim>
+    where id in
+    <foreach close=")" collection="list" item="item" open="(" separator=", ">
+      #{item.id,jdbcType=INTEGER}
+    </foreach>
+  </update>
+  <insert id="batchInsert" keyColumn="id" keyProperty="id" parameterType="map" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_address
+    (user_id, address)
+    values
+    <foreach collection="list" item="item" separator=",">
+      (#{item.userId,jdbcType=INTEGER}, #{item.address,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
+  <insert id="insertOrUpdate" keyColumn="id" keyProperty="id" parameterType="com.demo.common.pojo.domain.TAddress" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_address
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      user_id,
+      address,
+    </trim>
+    values
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      #{userId,jdbcType=INTEGER},
+      #{address,jdbcType=VARCHAR},
+    </trim>
+    on duplicate key update 
+    <trim suffixOverrides=",">
+      <if test="id != null">
+        id = #{id,jdbcType=INTEGER},
+      </if>
+      user_id = #{userId,jdbcType=INTEGER},
+      address = #{address,jdbcType=VARCHAR},
+    </trim>
+  </insert>
+  <insert id="insertOrUpdateSelective" keyColumn="id" keyProperty="id" parameterType="com.demo.common.pojo.domain.TAddress" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_address
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+    </trim>
+    values
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+    </trim>
+    on duplicate key update 
+    <trim suffixOverrides=",">
+      <if test="id != null">
+        id = #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

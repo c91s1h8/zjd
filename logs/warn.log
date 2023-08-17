@@ -1,0 +1,94 @@
+2023-08-16 14:12:10.510 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 14:12:10.733 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 14:12:41.677 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 14:12:41.684 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 14:12:52.038 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-08-16 14:20:16.570 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 14:20:16.570 [Thread-62] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 14:20:30.820 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 14:20:30.971 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 14:20:31.271 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiOneController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.datasource.url' in value "${spring.datasource.url}"
+2023-08-16 14:20:31.324 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 14:20:31.326 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 14:24:13.723 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 14:24:13.871 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 14:24:14.201 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiOneController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserMapper' defined in file [D:\陈松鹤\demo\common\target\classes\com\demo\common\mapper\TUserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-08-16 14:24:14.246 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 14:24:14.249 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 14:46:48.861 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 14:46:49.014 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 14:47:00.847 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 14:47:00.852 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 14:47:04.025 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 14:47:04.223 [sentinel-nacos-ds-update-thread-1] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 14:47:10.810 [RMI TCP Connection(2)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 14:54:26.220 [Thread-62] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 14:54:26.220 [Thread-62] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 14:54:26.220 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 14:54:26.221 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 14:54:46.389 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 14:54:46.607 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 14:55:01.117 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 14:55:01.121 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 14:55:04.497 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 14:55:12.601 [RMI TCP Connection(5)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 15:13:28.996 [Thread-4] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 15:13:28.999 [Thread-69] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 15:13:29.000 [Thread-69] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 15:13:29.001 [Thread-4] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 15:13:45.448 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 15:13:45.608 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 15:13:57.787 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 15:13:57.792 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 15:14:00.875 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 15:14:07.418 [RMI TCP Connection(4)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 15:26:31.712 [Thread-59] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 15:26:31.713 [Thread-59] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 15:26:31.712 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 15:26:31.715 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 15:59:12.466 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 15:59:12.635 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 15:59:26.108 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 15:59:26.112 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 15:59:29.480 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 15:59:37.669 [RMI TCP Connection(4)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:02:43.731 [Thread-67] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 16:02:43.731 [Thread-67] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 16:02:43.732 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 16:02:43.735 [Thread-7] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 16:02:59.654 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 16:02:59.803 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 16:03:23.303 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:03:23.308 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:03:26.778 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:03:33.254 [RMI TCP Connection(3)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:03:53.887 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 16:03:53.888 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 16:03:53.889 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 16:03:53.892 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 16:04:09.045 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 16:04:09.197 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 16:04:31.201 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:04:31.206 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:04:34.463 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:04:41.823 [RMI TCP Connection(5)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:15:25.500 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 16:15:25.502 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 16:15:25.502 [Thread-39] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 16:15:25.503 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 16:15:40.925 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 16:15:41.107 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 16:16:04.435 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:16:04.439 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:16:07.968 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:16:15.151 [RMI TCP Connection(3)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:17:06.911 [Thread-40] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2023-08-16 16:17:06.912 [Thread-40] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2023-08-16 16:17:06.915 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-08-16 16:17:06.916 [Thread-6] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2023-08-16 16:17:22.376 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-08-16 16:17:22.528 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-08-16 16:17:34.447 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:17:34.451 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-08-16 16:17:37.617 [main] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty
+2023-08-16 16:17:44.825 [RMI TCP Connection(2)-169.254.165.11] WARN  c.a.c.s.datasource.converter.SentinelConverter - converter can not convert rules because source is empty

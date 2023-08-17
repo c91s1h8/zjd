@@ -1,0 +1,5 @@
+2023-03-01 09:59:44.264 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-01 09:59:44.449 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2023-03-01 09:59:55.571 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-01 09:59:55.576 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-03-01 09:59:58.571 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.

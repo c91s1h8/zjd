@@ -1,0 +1,571 @@
+2023-02-21 14:07:16.236 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 14:11:58.607 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 14:24:43.957 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 15:58:42.388 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 16:00:22.730 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 16:01:10.558 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 16:03:11.230 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 16:04:13.666 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 16:04:39.459 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 16:07:37.370 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 16:09:04.367 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 16:13:53.070 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 16:44:26.321 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+2023-02-21 17:12:17.323 [XNIO-1 task-1] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:14:26.016 [SpringApplicationShutdownHook] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='124.70.130.56:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='api-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.165.11', networkInterface='', port=8111, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed:
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:213)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.deregisterService(NamingGrpcClientProxy.java:112)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.deregisterService(NamingClientProxyDelegate.java:100)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:174)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:164)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:92)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:249)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:264)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:137)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:106)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:628)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:608)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:203)
+	... 29 common frames omitted
+2023-02-21 17:21:19.900 [XNIO-1 task-1] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.908 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.908 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.914 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.916 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.924 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.933 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.942 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.954 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.965 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.975 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.984 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:21.993 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.005 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.013 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.023 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.035 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.044 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.052 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.063 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.073 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.084 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.092 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.104 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.113 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.122 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.133 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.143 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.154 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.163 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.172 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.183 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.191 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.202 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.213 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.224 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.233 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.242 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.251 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.261 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.272 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.282 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.293 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.302 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.313 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.321 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.331 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.341 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.352 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.362 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.374 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.383 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.391 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.402 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.412 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.423 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.434 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.441 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.451 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.461 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.472 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.482 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.517 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.527 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.536 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.541 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.546 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.555 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.567 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.578 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.585 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.595 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.604 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.615 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.624 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.633 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.642 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.652 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.662 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.671 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.682 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.692 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.703 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.714 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.722 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.732 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.744 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.753 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.763 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.772 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.788 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.794 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.803 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.812 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.823 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.834 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.843 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.853 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:25:22.863 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:13.563 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:13.764 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:13.966 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:14.348 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:14.545 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:14.725 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:14.918 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:15.298 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:15.483 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:15.680 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:15.881 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:16.258 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:16.452 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:16.647 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:16.824 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:26:17.200 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.470 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.481 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.483 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.489 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.501 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.512 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.522 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.532 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.540 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.550 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.561 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.570 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.581 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.591 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.602 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.613 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.622 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.631 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.643 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.652 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.661 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.672 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.683 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.693 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.702 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.712 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.722 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.732 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.741 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.751 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.771 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.782 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.792 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.803 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.809 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.815 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.823 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.831 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.852 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.862 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.873 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.881 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.891 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.897 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.905 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.919 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.924 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.938 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.954 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.971 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.976 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.985 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:16.991 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.005 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.014 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.024 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.036 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.049 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.056 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.066 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.089 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.100 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.107 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.118 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.122 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.129 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.138 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.145 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.165 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.179 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.186 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.191 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.197 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.208 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.216 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.227 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.233 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.247 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.255 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.268 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.276 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.285 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.308 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.320 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.331 [XNIO-1 task-8] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.334 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.339 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.347 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.354 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.366 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.377 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.386 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.396 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.407 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.416 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.426 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.437 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败
+2023-02-21 17:28:17.447 [XNIO-1 task-7] ERROR c.demo.api.feign.fallback.AsyncOneFallBackFactory - AsyncOneFeign-method1 调用失败

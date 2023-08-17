@@ -1,0 +1,749 @@
+2023-02-21 13:46:51.983 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 20252 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 13:46:51.992 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 13:46:53.189 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 13:46:53.192 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 13:46:53.221 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-02-21 13:46:53.554 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-21 13:46:54.245 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 13:46:54.245 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2188 ms
+2023-02-21 13:46:54.545 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 13:46:55.071 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 13:46:55.077 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 13:46:57.887 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 13:47:06.742 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 13:47:07.014 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 13:47:07.035 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 13:47:07.053 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 13:47:07.120 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 13:47:07.226 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 13:47:07.273 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 13:47:10.085 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 13:47:10.313 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 26.139 seconds (JVM running for 28.423)
+2023-02-21 13:47:10.332 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 13:47:10.334 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:04:08.310 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 14:04:08.313 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 14:04:08.339 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2023-02-21 14:05:28.228 [nacos.client.cachedata.internal.notifier] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:05:28.342 [nacos.client.cachedata.internal.notifier] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [logging.level.root]
+2023-02-21 14:05:58.210 [nacos.client.cachedata.internal.notifier] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:05:58.308 [nacos.client.cachedata.internal.notifier] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds]
+2023-02-21 14:07:15.862 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 14:07:15.870 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-21 14:07:15.902 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 14:07:16.239 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 14:07:16.259 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:07:33.710 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 1668 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 14:07:33.716 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 14:07:34.771 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 14:07:34.774 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 14:07:34.796 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-02-21 14:07:35.086 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-21 14:07:35.689 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 14:07:35.690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1915 ms
+2023-02-21 14:07:35.951 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 14:07:36.353 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:07:36.359 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:07:38.821 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:07:44.634 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:07:44.792 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 14:07:44.799 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 14:07:44.807 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 14:07:44.840 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 14:07:44.898 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 14:07:44.917 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 14:07:47.145 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:07:47.376 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 22.854 seconds (JVM running for 28.194)
+2023-02-21 14:07:47.391 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:07:47.393 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:07:53.082 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 14:07:53.083 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 14:07:53.085 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-02-21 14:11:58.231 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 14:11:58.240 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-21 14:11:58.266 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 14:11:58.608 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 14:11:58.627 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:14:13.567 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 16604 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 14:14:13.572 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 14:14:14.761 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 14:14:14.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 14:14:14.793 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-21 14:14:15.116 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-21 14:14:15.759 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 14:14:15.760 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2128 ms
+2023-02-21 14:14:16.092 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 14:14:16.511 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:14:16.518 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:14:18.991 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:14:25.685 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:14:25.842 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 14:14:25.850 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 14:14:25.859 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 14:14:25.892 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 14:14:25.953 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 14:14:25.976 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 14:14:28.255 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:14:28.475 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 23.43 seconds (JVM running for 25.531)
+2023-02-21 14:14:28.497 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:14:28.498 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:16:59.534 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 14:16:59.535 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 14:16:59.537 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-02-21 14:24:43.586 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 14:24:43.594 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-21 14:24:43.619 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 14:24:43.958 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 14:24:43.977 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:24:56.843 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 22340 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 14:24:56.847 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 14:24:57.887 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 14:24:57.890 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 14:24:57.916 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-21 14:24:58.255 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-21 14:24:58.850 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 14:24:58.850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1940 ms
+2023-02-21 14:24:59.166 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 14:24:59.636 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:24:59.642 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 14:25:02.169 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:25:08.519 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:25:08.681 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 14:25:08.692 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 14:25:08.703 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 14:25:08.749 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 14:25:08.802 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 14:25:08.820 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 14:25:11.057 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 14:25:11.270 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 22.481 seconds (JVM running for 24.909)
+2023-02-21 14:25:11.285 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:25:11.287 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 14:34:26.863 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 14:34:26.865 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 14:34:26.867 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-02-21 15:57:55.779 [nacos.client.cachedata.internal.notifier] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 15:57:55.869 [nacos.client.cachedata.internal.notifier] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: []
+2023-02-21 15:58:42.015 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 15:58:42.025 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-21 15:58:42.055 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 15:58:42.389 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 15:58:42.407 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 15:59:02.678 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 25352 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 15:59:02.682 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 15:59:03.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 15:59:03.767 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 15:59:03.792 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-02-21 15:59:04.110 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=98c273ca-0644-3f80-886c-ad354530aeed
+2023-02-21 15:59:04.731 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 15:59:04.731 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1989 ms
+2023-02-21 15:59:05.005 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 15:59:05.445 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 15:59:05.450 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 15:59:07.976 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 15:59:13.885 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 15:59:14.025 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 15:59:14.032 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 15:59:14.040 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 15:59:14.072 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 15:59:14.120 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 15:59:14.138 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 15:59:16.358 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 15:59:16.566 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 22.013 seconds (JVM running for 26.656)
+2023-02-21 15:59:16.581 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 15:59:16.583 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 15:59:37.409 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 15:59:37.410 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 15:59:37.412 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-02-21 15:59:40.767 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 16:00:22.358 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 16:00:22.367 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-21 16:00:22.390 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 16:00:22.730 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 16:00:22.755 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 16:01:08.635 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 4972 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:01:08.638 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:01:09.832 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:01:09.835 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:01:09.872 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:01:10.200 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5c20c26d-cf56-3b47-9e2e-6295347ac27a
+2023-02-21 16:01:10.533 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 16:03:09.408 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 10512 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:03:09.414 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:03:10.531 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:03:10.534 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:03:10.558 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:03:10.864 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6972d105-fa6d-3c3d-831a-45f1b5a0f37d
+2023-02-21 16:03:11.205 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 16:04:11.822 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 19460 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:04:11.826 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:04:12.951 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:04:12.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:04:12.982 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:04:13.303 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9e3bc7c2-86d2-3743-b2d8-50d14e5f13fa
+2023-02-21 16:04:13.643 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 16:04:37.613 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 22572 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:04:37.616 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:04:38.759 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:04:38.763 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:04:38.786 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:04:39.099 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=43e15460-de23-3db6-84ea-88320e49a7cf
+2023-02-21 16:04:39.433 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 16:07:35.348 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 24224 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:07:35.352 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:07:36.593 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:07:36.598 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:07:36.625 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:07:36.984 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9e3bc7c2-86d2-3743-b2d8-50d14e5f13fa
+2023-02-21 16:07:37.345 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 16:08:28.774 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 24044 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:08:28.777 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:08:29.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:08:29.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:08:29.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:08:30.219 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3284074e-fc24-37c0-a0bd-1a99954284f6
+2023-02-21 16:08:30.776 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 16:08:30.777 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1938 ms
+2023-02-21 16:08:31.099 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 16:08:31.577 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 16:08:31.583 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 16:08:34.073 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 16:08:40.412 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 16:08:40.661 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 16:08:40.674 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 16:08:40.689 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 16:08:40.737 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 16:08:40.797 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 16:08:40.816 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 16:08:43.227 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 16:08:43.489 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 22.521 seconds (JVM running for 24.872)
+2023-02-21 16:08:43.517 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 16:08:43.519 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 16:09:03.999 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 16:09:04.042 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 16:09:04.368 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 16:09:04.388 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 16:13:50.907 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 26120 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:13:50.911 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:13:52.240 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:13:52.243 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:13:52.271 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:13:52.618 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7146a5df-62ec-322c-8f03-ca4114bf5ed5
+2023-02-21 16:13:53.042 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 16:44:24.493 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 11396 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 16:44:24.497 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 16:44:25.638 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 16:44:25.643 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 16:44:25.674 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-02-21 16:44:25.984 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7146a5df-62ec-322c-8f03-ca4114bf5ed5
+2023-02-21 16:44:26.296 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-21 17:10:48.431 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 23476 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 17:10:48.434 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 17:10:49.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 17:10:49.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 17:10:49.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-02-21 17:10:50.006 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0a3d8ef6-fcac-35a9-b979-0dd3a17091dc
+2023-02-21 17:10:50.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:10:50.393 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:10:50.394 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$463/1642771051] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:10:50.396 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:10:50.457 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:10:50.461 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:10:50.770 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 17:10:50.770 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2289 ms
+2023-02-21 17:10:51.187 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 17:10:51.514 [main] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-02-21 17:10:51.664 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 17:10:51.671 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 17:10:54.231 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:10:59.979 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:11:00.160 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 17:11:00.168 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 17:11:00.177 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 17:11:00.211 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 17:11:00.262 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 17:11:00.281 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 17:11:02.448 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:11:02.654 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 21.974 seconds (JVM running for 24.176)
+2023-02-21 17:11:02.673 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 17:11:02.673 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 17:12:13.464 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 17:12:13.465 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 17:12:13.467 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-02-21 17:12:17.220 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:14:24.882 [nacos.client.cachedata.internal.notifier] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:14:24.958 [nacos.client.cachedata.internal.notifier] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [spring.cloud.sentinel.transport.port, spring.cloud.sentinel.transport.dashboard, spring.cloud.sentinel.eager]
+2023-02-21 17:14:25.647 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-21 17:14:25.653 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-21 17:14:25.680 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-21 17:14:26.018 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-21 17:14:38.380 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 22296 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-21 17:14:38.384 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-21 17:14:39.482 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-21 17:14:39.485 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-21 17:14:39.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-02-21 17:14:39.831 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0a3d8ef6-fcac-35a9-b979-0dd3a17091dc
+2023-02-21 17:14:40.137 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:14:40.141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:14:40.141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$463/1340995848] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:14:40.144 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:14:40.226 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:14:40.319 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-21 17:14:40.604 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-21 17:14:40.604 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2163 ms
+2023-02-21 17:14:40.903 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-21 17:14:41.176 [main] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-02-21 17:14:41.339 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 17:14:41.343 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-21 17:14:43.786 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:14:49.879 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:14:50.046 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-21 17:14:50.054 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-21 17:14:50.063 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-21 17:14:50.108 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-21 17:14:50.160 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-21 17:14:50.178 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-21 17:14:52.343 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-21 17:14:52.575 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 21.811 seconds (JVM running for 23.883)
+2023-02-21 17:14:52.591 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 17:14:52.592 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-21 17:21:19.730 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 17:21:19.732 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-21 17:21:19.735 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-02-21 17:21:19.790 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:23:42.119 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.806 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.823 [XNIO-1 task-2] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.837 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.838 [XNIO-1 task-4] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.839 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.865 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.865 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.869 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.872 [XNIO-1 task-4] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.872 [XNIO-1 task-2] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.872 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.873 [XNIO-1 task-12] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.874 [XNIO-1 task-11] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.870 [XNIO-1 task-5] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.874 [XNIO-1 task-1] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.875 [XNIO-1 task-6] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.874 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.884 [XNIO-1 task-13] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.895 [XNIO-1 task-14] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.896 [XNIO-1 task-5] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.903 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.916 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.919 [XNIO-1 task-5] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.929 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.944 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.951 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.958 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.967 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.979 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.991 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:05.996 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.006 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.020 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.029 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.037 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.044 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.057 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.076 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.082 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.087 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.103 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.109 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.116 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.125 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.135 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.147 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.164 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.171 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.185 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.199 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.203 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.212 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.219 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.231 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.240 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.247 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.265 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.271 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.276 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.321 [XNIO-1 task-9] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.323 [XNIO-1 task-3] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.323 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.326 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.333 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.348 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.355 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.373 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.380 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.384 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.392 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.401 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.413 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.422 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.431 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.436 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.447 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.462 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.471 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.478 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.492 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.501 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.510 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.522 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.532 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.536 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.553 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.562 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.571 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.582 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.589 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.600 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.611 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.620 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.631 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.639 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.649 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.661 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.670 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.678 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:06.685 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.875 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.884 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.897 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.913 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.915 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.923 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.932 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.942 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.953 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.964 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.974 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.984 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:21.993 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.004 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.013 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.023 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.034 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.043 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.052 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.062 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.073 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.083 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.092 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.103 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.112 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.122 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.132 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.143 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.153 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.163 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.172 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.182 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.191 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.202 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.213 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.224 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.233 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.242 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.251 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.261 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.272 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.281 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.292 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.302 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.313 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.321 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.331 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.341 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.352 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.361 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.374 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.382 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.391 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.401 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.411 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.422 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.433 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.440 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.451 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.461 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.472 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.482 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.503 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.516 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.526 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.535 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.540 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.546 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.555 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.567 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.577 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.585 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.595 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.604 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.615 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.623 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.633 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.641 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.651 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.662 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.671 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.682 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.692 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.703 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.714 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.722 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.732 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.743 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.753 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.763 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.772 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.788 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.794 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.803 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.812 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.823 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.833 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.843 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.853 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:22.862 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:25:49.556 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:13.378 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:13.562 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:13.764 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:13.966 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:14.167 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:14.348 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:14.544 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:14.725 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:14.918 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:15.110 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:15.297 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:15.482 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:15.680 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:15.880 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:16.071 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:16.258 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:16.452 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:16.646 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:16.823 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:17.010 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:26:17.200 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.501 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.506 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.514 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.524 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.533 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.544 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.555 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.566 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.577 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.586 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.597 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.611 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.618 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.627 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.641 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.650 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.657 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.668 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.680 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.690 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.699 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.707 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.719 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.729 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.740 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.749 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.757 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.768 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.781 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.790 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.800 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.811 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.820 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.827 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.841 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.848 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.858 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.869 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.875 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.887 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.902 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.908 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.917 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.928 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.937 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.947 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.957 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.966 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.978 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.993 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:49.995 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.012 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.017 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.026 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.044 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.047 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.061 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.067 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.077 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.087 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.095 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.116 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.126 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.132 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.140 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.153 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.160 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.169 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.176 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.188 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.197 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.220 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.228 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.232 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.244 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.247 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.258 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.267 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.277 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.287 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.293 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.306 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.318 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.324 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.337 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.354 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.366 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.377 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.386 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.393 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.401 [XNIO-1 task-10] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.409 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.417 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.427 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.435 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.446 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.456 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.466 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.478 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:27:50.486 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.454 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.470 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.481 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.483 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.489 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.500 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.511 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.521 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.532 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.540 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.550 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.561 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.570 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.580 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.590 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.602 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.613 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.621 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.631 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.642 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.652 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.661 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.672 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.683 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.692 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.701 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.711 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.721 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.731 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.741 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.750 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.771 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.781 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.791 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.802 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.808 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.815 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.823 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.831 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.850 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.861 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.871 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.880 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.890 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.896 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.904 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.919 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.924 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.937 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.953 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.969 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.975 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.984 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:16.990 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.003 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.005 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.013 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.024 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.036 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.049 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.056 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.065 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.088 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.099 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.105 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.117 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.122 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.129 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.137 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.145 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.164 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.177 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.185 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.190 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.196 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.207 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.216 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.226 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.233 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.247 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.255 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.268 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.274 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.285 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.307 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.317 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.330 [XNIO-1 task-8] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.333 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.337 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.347 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.354 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.365 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.376 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.386 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.396 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.406 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.416 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.426 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.437 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+2023-02-21 17:28:17.446 [XNIO-1 task-7] INFO  com.demo.api.controller.ApiOneController - jdbc:mysql://localhost:3306/shop_user?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8

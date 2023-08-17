@@ -1,0 +1,78 @@
+2023-02-20 17:15:47.575 [nacos-grpc-client-executor-9] INFO  com.alibaba.nacos.common.remote.client - [1676884977056_192.168.5.93_2547]Ignore complete event,isRunning:false,isAbandon=false
+2023-02-20 17:16:33.317 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 20768 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-20 17:16:33.320 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-20 17:16:34.551 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-20 17:16:34.555 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-20 17:16:34.585 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-20 17:16:34.952 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-20 17:16:35.632 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-20 17:16:35.633 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2257 ms
+2023-02-20 17:16:35.915 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-20 17:16:36.381 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:16:36.389 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:16:38.943 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:16:45.077 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:16:45.246 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-20 17:16:45.256 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-20 17:16:45.265 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-20 17:16:45.312 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-20 17:16:45.376 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-20 17:16:45.396 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-20 17:16:47.584 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:16:47.797 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 22.116 seconds (JVM running for 24.237)
+2023-02-20 17:16:47.818 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-20 17:16:47.820 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-20 17:17:19.595 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-20 17:17:19.641 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-20 17:17:19.977 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-20 17:17:19.995 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:17:32.360 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 4036 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-20 17:17:32.364 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-20 17:17:33.422 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-20 17:17:33.425 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-20 17:17:33.453 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-20 17:17:33.798 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-20 17:17:34.365 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-20 17:17:34.366 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1941 ms
+2023-02-20 17:17:34.636 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-20 17:17:35.123 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:17:35.131 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:17:37.642 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:17:43.762 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:17:43.909 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-20 17:17:43.917 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-20 17:17:43.926 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-20 17:17:43.963 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-20 17:17:44.018 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-20 17:17:44.041 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-20 17:17:46.322 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:17:46.519 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 21.892 seconds (JVM running for 24.318)
+2023-02-20 17:17:46.535 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-20 17:17:46.535 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP
+2023-02-20 17:18:47.031 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.14.Final
+2023-02-20 17:18:47.077 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2023-02-20 17:18:47.413 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2023-02-20 17:18:47.431 [SpringApplicationShutdownHook] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:18:59.737 [main] INFO  com.demo.api.ApiApplication - Starting ApiApplication using Java 1.8.0_281 on DESKTOP-U3PSKH7 with PID 19592 (D:\demo\api\target\classes started by Uniigym3 in D:\demo)
+2023-02-20 17:18:59.741 [main] INFO  com.demo.api.ApiApplication - The following profiles are active: dev
+2023-02-20 17:19:00.816 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-20 17:19:00.821 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-20 17:19:00.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-02-20 17:19:01.178 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b5306404-e7f6-3ae8-940c-c101faa9c70b
+2023-02-20 17:19:01.766 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2023-02-20 17:19:01.767 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1972 ms
+2023-02-20 17:19:02.091 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'async-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-20 17:19:02.520 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:19:02.526 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-20 17:19:05.012 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:19:11.318 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:19:11.580 [main] INFO  io.undertow - starting server: Undertow - 2.2.14.Final
+2023-02-20 17:19:11.589 [main] INFO  org.xnio - XNIO version 3.8.4.Final
+2023-02-20 17:19:11.597 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.4.Final
+2023-02-20 17:19:11.633 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2023-02-20 17:19:11.686 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 8111 (http)
+2023-02-20 17:19:11.706 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP api-service 169.254.165.11:8111 register finished
+2023-02-20 17:19:14.018 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-02-20 17:19:14.308 [main] INFO  com.demo.api.ApiApplication - Started ApiApplication in 22.304 seconds (JVM running for 24.554)
+2023-02-20 17:19:14.326 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=common-dev.yaml, group=DEFAULT_GROUP
+2023-02-20 17:19:14.327 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=api-service-dev.yaml, group=DEFAULT_GROUP

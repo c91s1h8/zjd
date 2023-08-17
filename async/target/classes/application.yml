@@ -1,0 +1,46 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: async-service
+  cloud:
+    nacos:
+      config:
+        # 启用nacos配置管理
+        enabled: true
+        # 配置中心地址
+        server-addr: 124.70.130.56:8848
+        # 所属命名空间id，用于区分开发、测试、生产
+        namespace: dev
+        # 配置文件类型
+        file-extension: yaml
+      discovery:
+        # 注册中心地址
+        server-addr: 124.70.130.56:8848
+  config:
+    # 因为springboot 2.4版本以后默认关闭加载bootstrap.yml，所以只能通过此方式连接到nacos config
+    import:
+      - nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+      - nacos:common-dev.yaml
+
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 8112
+  servlet:
+    # 应用的访问路径
+    context-path: /
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    # 连接数满后的排队数，默认为100
+    accept-count: 1000
+    threads:
+      # tomcat最大线程数，默认为200
+      max: 800
+      # Tomcat启动初始化的线程数，默认值10
+      min-spare: 100
+
+
+
+
+
